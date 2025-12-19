@@ -1,6 +1,6 @@
-# AI Prompt Collection
+# LLM utility Prompt Collections
 
-This repository contains a curated collection of prompts.
+This repository contains crafted collection of LLM prompts.
 
 ## How to Use
 
@@ -8,11 +8,11 @@ Follow these steps to get started with the collection:
 
 1. **Download or clone the repository.**  Use `git clone` if you want to keep the repository in sync or download the ZIP archive from your repository provider.
 
-2. **Open the document.**  Use any word‑processing software that supports the `.md` format.  When opened, you will see each category on its own page, making it easy to navigate.
+2. **Open the document.**  Use any word‑processing software that supports the `.md` file formats.
 
-3. **Browse the categories.**  Each page begins with a heading (e.g. “Code”, “Browser”, “Communication”) followed by individual prompts.  Prompts are labelled with sub‑headings and the instructions are enclosed in triple back‑ticks so you can copy them directly into your LLM of your choice or other applications without losing formatting.
+3. **Browse the categories.**  Each page begins with a heading (e.g. “Code”, “Browser”, “Communication”) followed by individual prompts.  Prompts are labelled with sub‑headings and the instructions are enclosed in triple back‑ticks so you can copy them directly into  LLM of your choice or other applications without losing formatting.
 
-4. **Copy and paste prompts as needed.**  To use a particular prompt, select the text inside the code block and paste it into your desired destination.  The back‑ticks can be removed if you prefer plain text.
+4. **Copy and paste prompts as needed.**  To use a particular prompt, select the text inside the code block and paste it into your desired LLM destination.  The back‑ticks can be removed if you prefer plain text.
 
 5. **Customize if necessary.**  If you need to edit or refine a prompt for your own use, feel free to make changes in the document before copying.  The prompts are provided as a starting point and can be adapted to fit your needs.
 
@@ -21,9 +21,9 @@ Follow these steps to get started with the collection:
 
 If you’d like to add more prompts or improve the organization of this collection, open an issue or submit a pull request.  Please follow the existing structure—group prompts by category, start each category on a new page, and place prompt instructions inside fenced code blocks.
 
-### Prompt Collection Overview
+### LLM Prompt Collection Overview
 
-This document groups the prompts by category.  Each section corresponds to a page from the website. A page break (`\newpage`) separates each category.
+This document groups the prompts by category. A page break (`\newpage`) separates each category.
 
 \newpage
 
@@ -237,7 +237,7 @@ Declined email:
 ### Ask Question
 
 ```
-Rewrite the following text as a concise and friendly message, phrased as a question.  This should be written in a way that it can be sent in a chat application like Slack.
+Rewrite the following text as a concise and friendly message, phrased as a question.  This should be written in a way that it can be sent in a chat application like Slack or Microsoft Teams.
 
 Text: {selection}
 
@@ -352,7 +352,7 @@ Rewritten text:
 ### Create a YouTube Script
 
 ```
-Create a compelling and captivating YouTube script based on the text.  Make sure to include B‑Rolls in the script.  Make the script as long as necessary to make a video of {argument name=minutes default=10} minutes.
+Create a compelling and captivating YouTube script based on the text. Make the script as long as necessary to make a video of {argument name=minutes default=10} minutes.
 
 Text: {selection}
 
@@ -786,12 +786,6 @@ Move all desktop files to a new folder named after today's date.
 Create a new Zoom meeting today for 1 h based on my calendar availability.  Avoid gaps between meetings and prefer to have meetings in the afternoon.
 ```
 
-### Chart Workout Distance
-
-```
-Get my last 5 workouts and chart them by distance.
-```
-
 ### Application Support Directory
 
 ```
@@ -844,12 +838,6 @@ Time: [Calendar Timeframe] [Timezone i.e. CET]
 
 4. **Save and Update**:
    - For every meeting confirmed, create a new note.  Insert the template into each note.
-```
-
-### Ice Skating Report
-
-```
-Reply with the latest ice report (israpport) from Nacka Kommun.  Always start with the date of the latest report.  Reply with a markdown formatted table of all lakes starting with Bastusjön (my local favorite lake).  Always include columns of the thickness of the ice, and the exact description as written on the website.  Use curl to get the HTML from the official ice report: "https://www.nacka.se/uppleva--gora/friluftsliv-motion/trana-i-naturen/skridskoakning-pa-sjoisar-och-israpport/"
 ```
 
 ### Create Daily Focus Note
